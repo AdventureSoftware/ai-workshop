@@ -1,0 +1,743 @@
+# AI Workshop - Multi-Language .gitignore
+# Covers Node.js/TypeScript and .NET tracks
+
+# ===================================
+# OPERATING SYSTEM FILES
+# ===================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# IDE AND EDITOR FILES
+# ===================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+
+# Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vscode/
+**/launchSettings.json
+
+# JetBrains IDEs
+.idea/
+*.sln.iml
+*.iml
+*.ipr
+*.iws
+out/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===================================
+# NODE.JS / TYPESCRIPT TRACK
+# ===================================
+
+# Dependencies
+nodejs/node_modules/
+nodejs/npm-debug.log*
+nodejs/yarn-debug.log*
+nodejs/yarn-error.log*
+nodejs/lerna-debug.log*
+nodejs/.pnpm-debug.log*
+
+# Runtime data
+nodejs/pids
+nodejs/*.pid
+nodejs/*.seed
+nodejs/*.pid.lock
+
+# Coverage directory used by tools like istanbul
+nodejs/coverage/
+nodejs/*.lcov
+nodejs/.nyc_output
+
+# Grunt intermediate storage
+nodejs/.grunt
+
+# Bower dependency directory
+nodejs/bower_components
+
+# node-waf configuration
+nodejs/.lock-wscript
+
+# Compiled binary addons
+nodejs/build/Release
+
+# Dependency directories
+nodejs/jspm_packages/
+
+# TypeScript cache
+nodejs/*.tsbuildinfo
+
+# Optional npm cache directory
+nodejs/.npm
+
+# Optional eslint cache
+nodejs/.eslintcache
+
+# Optional stylelint cache
+nodejs/.stylelintcache
+
+# Microbundle cache
+nodejs/.rpt2_cache/
+nodejs/.rts2_cache_cjs/
+nodejs/.rts2_cache_es/
+nodejs/.rts2_cache_umd/
+
+# Optional REPL history
+nodejs/.node_repl_history
+
+# Output of 'npm pack'
+nodejs/*.tgz
+
+# Yarn Integrity file
+nodejs/.yarn-integrity
+
+# dotenv environment variable files
+nodejs/.env
+nodejs/.env.development.local
+nodejs/.env.test.local
+nodejs/.env.production.local
+nodejs/.env.local
+
+# parcel-bundler cache
+nodejs/.cache
+nodejs/.parcel-cache
+
+# Next.js build output
+nodejs/.next
+nodejs/out
+
+# Nuxt.js build / generate output
+nodejs/.nuxt
+nodejs/dist
+
+# Gatsby files
+nodejs/.cache/
+nodejs/public
+
+# Storybook build outputs
+nodejs/.out
+nodejs/.storybook-out
+nodejs/storybook-static
+
+# Temporary folders
+nodejs/tmp/
+nodejs/temp/
+
+# ===================================
+# .NET TRACK
+# ===================================
+
+# Build results
+dotnet/[Dd]ebug/
+dotnet/[Dd]ebugPublic/
+dotnet/[Rr]elease/
+dotnet/[Rr]eleases/
+dotnet/x64/
+dotnet/x86/
+dotnet/[Aa][Rr][Mm]/
+dotnet/[Aa][Rr][Mm]64/
+dotnet/bld/
+dotnet/[Bb]in/
+dotnet/[Oo]bj/
+dotnet/[Ll]og/
+dotnet/[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+dotnet/.vs/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+# dotnet/wwwroot/
+
+# Visual Studio 2017 auto generated files
+dotnet/Generated\ Files/
+
+# MSTest test results
+dotnet/[Tt]est[Rr]esult*/
+dotnet/[Bb]uild[Ll]og.*
+
+# NUnit
+dotnet/*.VisualState.xml
+dotnet/TestResult.xml
+dotnet/nunit-*.xml
+
+# Build Results of an ATL Project
+dotnet/[Dd]ebugPS/
+dotnet/[Rr]eleasePS/
+dotnet/dlldata.c
+
+# Benchmark Results
+dotnet/BenchmarkDotNet.Artifacts/
+
+# .NET Core
+dotnet/project.lock.json
+dotnet/project.fragment.lock.json
+dotnet/artifacts/
+
+# StyleCop
+dotnet/StyleCopReport.xml
+
+# Files built by Visual Studio
+dotnet/*_i.c
+dotnet/*_p.c
+dotnet/*_h.h
+dotnet/*.ilk
+dotnet/*.meta
+dotnet/*.obj
+dotnet/*.iobj
+dotnet/*.pch
+dotnet/*.pdb
+dotnet/*.ipdb
+dotnet/*.pgc
+dotnet/*.pgd
+dotnet/*.rsp
+dotnet/*.sbr
+dotnet/*.tlb
+dotnet/*.tli
+dotnet/*.tlh
+dotnet/*.tmp
+dotnet/*.tmp_proj
+dotnet/*_wpftmp.csproj
+dotnet/*.log
+dotnet/*.tlog
+dotnet/*.vspscc
+dotnet/*.vssscc
+dotnet/.builds
+dotnet/*.pidb
+dotnet/*.svclog
+dotnet/*.scc
+
+# Chutzpah Test files
+dotnet/_Chutzpah*
+
+# Visual C++ cache files
+dotnet/ipch/
+dotnet/*.aps
+dotnet/*.ncb
+dotnet/*.opendb
+dotnet/*.opensdf
+dotnet/*.sdf
+dotnet/*.cachefile
+dotnet/*.VC.db
+dotnet/*.VC.VC.opendb
+
+# Visual Studio profiler
+dotnet/*.psess
+dotnet/*.vsp
+dotnet/*.vspx
+dotnet/*.sap
+
+# Visual Studio Trace Files
+dotnet/*.e2e
+
+# TFS 2012 Local Workspace
+dotnet/$tf/
+
+# Guidance Automation Toolkit
+dotnet/*.gpState
+
+# ReSharper is a .NET coding add-in
+dotnet/_ReSharper*/
+dotnet/*.[Rr]e[Ss]harper
+dotnet/*.DotSettings.user
+
+# TeamCity is a build add-in
+dotnet/_TeamCity*
+
+# DotCover is a Code Coverage Tool
+dotnet/*.dotCover
+
+# AxoCover is a Code Coverage Tool
+dotnet/.axoCover/*
+dotnet/!.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+dotnet/coverage*.json
+dotnet/coverage*.xml
+dotnet/coverage*.info
+
+# Visual Studio code coverage results
+dotnet/*.coverage
+dotnet/*.coveragexml
+
+# NCrunch
+dotnet/_NCrunch_*
+dotnet/.*crunch*.local.xml
+dotnet/nCrunchTemp_*
+
+# MightyMoose
+dotnet/*.mm.*
+dotnet/AutoTest.Net/
+
+# Web workbench (sass)
+dotnet/.sass-cache/
+
+# Installshield output folder
+dotnet/[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+dotnet/DocProject/buildhelp/
+dotnet/DocProject/Help/*.HxT
+dotnet/DocProject/Help/*.HxC
+dotnet/DocProject/Help/Html2
+dotnet/DocProject/Help/html
+
+# Click-Once directory
+dotnet/publish/
+
+# Publish Web Output
+dotnet/*.[Pp]ublish.xml
+dotnet/*.azurePubxml
+dotnet/*.pubxml
+dotnet/*.publishproj
+
+# Microsoft Azure Web App publish settings
+dotnet/PublishProfiles/
+
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+dotnet/*.pubxml
+dotnet/*.publishproj
+
+# Microsoft Azure Build Output
+dotnet/csx/
+dotnet/*.build.csdef
+
+# Microsoft Azure Emulator
+dotnet/ecf/
+dotnet/rcf/
+
+# Windows Store app package directories and files
+dotnet/AppPackages/
+dotnet/BundleArtifacts/
+dotnet/Package.StoreAssociation.xml
+dotnet/_pkginfo.txt
+dotnet/*.appx
+dotnet/*.appxbundle
+dotnet/*.appxupload
+
+# Visual Studio cache files
+dotnet/*.suo
+dotnet/*.user
+dotnet/*.userosscache
+dotnet/*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+dotnet/*.userprefs
+
+# Mono auto generated files
+dotnet/mono_crash.*
+
+# Build results
+dotnet/[Dd]ebug/
+dotnet/[Dd]ebugPublic/
+dotnet/[Rr]elease/
+dotnet/[Rr]eleases/
+dotnet/x64/
+dotnet/x86/
+dotnet/[Ww][Ii][Nn]32/
+dotnet/[Aa][Rr][Mm]/
+dotnet/[Aa][Rr][Mm]64/
+dotnet/bld/
+dotnet/[Bb]in/
+dotnet/[Oo]bj/
+dotnet/[Ll]og/
+dotnet/[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+dotnet/.vs/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#dotnet/wwwroot/
+
+# Visual Studio 2017 auto generated files
+dotnet/Generated\ Files/
+
+# MSTest test results
+dotnet/[Tt]est[Rr]esult*/
+dotnet/[Bb]uild[Ll]og.*
+
+# NUnit
+dotnet/*.VisualState.xml
+dotnet/TestResult.xml
+dotnet/nunit-*.xml
+
+# Build Results of an ATL Project
+dotnet/[Dd]ebugPS/
+dotnet/[Rr]eleasePS/
+dotnet/dlldata.c
+
+# Benchmark Results
+dotnet/BenchmarkDotNet.Artifacts/
+
+# .NET Core
+dotnet/project.lock.json
+dotnet/project.fragment.lock.json
+dotnet/artifacts/
+
+# ASP.NET Scaffolding
+dotnet/ScaffoldingReadMe.txt
+
+# StyleCop
+dotnet/StyleCopReport.xml
+
+# Files built by Visual Studio
+dotnet/*_i.c
+dotnet/*_p.c
+dotnet/*_h.h
+dotnet/*.ilk
+dotnet/*.meta
+dotnet/*.obj
+dotnet/*.iobj
+dotnet/*.pch
+dotnet/*.pdb
+dotnet/*.ipdb
+dotnet/*.pgc
+dotnet/*.pgd
+dotnet/*.rsp
+dotnet/*.sbr
+dotnet/*.tlb
+dotnet/*.tli
+dotnet/*.tlh
+dotnet/*.tmp
+dotnet/*.tmp_proj
+dotnet/*_wpftmp.csproj
+dotnet/*.log
+dotnet/*.tlog
+dotnet/*.vspscc
+dotnet/*.vssscc
+dotnet/.builds
+dotnet/*.pidb
+dotnet/*.svclog
+dotnet/*.scc
+
+# Chutzpah Test files
+dotnet/_Chutzpah*
+
+# Visual C++ cache files
+dotnet/ipch/
+dotnet/*.aps
+dotnet/*.ncb
+dotnet/*.opendb
+dotnet/*.opensdf
+dotnet/*.sdf
+dotnet/*.cachefile
+dotnet/*.VC.db
+dotnet/*.VC.VC.opendb
+
+# Visual Studio profiler
+dotnet/*.psess
+dotnet/*.vsp
+dotnet/*.vspx
+dotnet/*.sap
+
+# Visual Studio Trace Files
+dotnet/*.e2e
+
+# TFS 2012 Local Workspace
+dotnet/$tf/
+
+# Guidance Automation Toolkit
+dotnet/*.gpState
+
+# ReSharper is a .NET coding add-in
+dotnet/_ReSharper*/
+dotnet/*.[Rr]e[Ss]harper
+dotnet/*.DotSettings.user
+
+# TeamCity is a build add-in
+dotnet/_TeamCity*
+
+# DotCover is a Code Coverage Tool
+dotnet/*.dotCover
+
+# AxoCover is a Code Coverage Tool
+dotnet/.axoCover/*
+dotnet/!.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+dotnet/coverage*.json
+dotnet/coverage*.xml
+dotnet/coverage*.info
+
+# Visual Studio code coverage results
+dotnet/*.coverage
+dotnet/*.coveragexml
+
+# NCrunch
+dotnet/_NCrunch_*
+dotnet/.*crunch*.local.xml
+dotnet/nCrunchTemp_*
+
+# MightyMoose
+dotnet/*.mm.*
+dotnet/AutoTest.Net/
+
+# Web workbench (sass)
+dotnet/.sass-cache/
+
+# Installshield output folder
+dotnet/[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+dotnet/DocProject/buildhelp/
+dotnet/DocProject/Help/*.HxT
+dotnet/DocProject/Help/*.HxC
+dotnet/DocProject/Help/Html2
+dotnet/DocProject/Help/html
+
+# Click-Once directory
+dotnet/publish/
+
+# Publish Web Output
+dotnet/*.[Pp]ublish.xml
+dotnet/*.azurePubxml
+dotnet/*.pubxml
+dotnet/*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+dotnet/PublishScripts/
+
+# NuGet Packages
+dotnet/*.nupkg
+dotnet/packages/
+dotnet/**/[Pp]ackages/*
+dotnet/project.lock.json
+dotnet/project.fragment.lock.json
+dotnet/artifacts/
+
+# NuGet Symbol Packages
+dotnet/*.snupkg
+
+# The packages folder can be ignored because of Package Restore
+dotnet/**/[Pp]ackages/*
+dotnet/!**/[Pp]ackages/build/
+dotnet/!**/[Pp]ackages/repositories.config
+
+# NuGet v3's project.json files produces more ignorable files
+dotnet/*.nuget.props
+dotnet/*.nuget.targets
+
+# Microsoft Azure Build Output
+dotnet/csx/
+dotnet/*.build.csdef
+
+# Microsoft Azure Emulator
+dotnet/ecf/
+dotnet/rcf/
+
+# Windows Store app package directories and files
+dotnet/AppPackages/
+dotnet/BundleArtifacts/
+dotnet/Package.StoreAssociation.xml
+dotnet/_pkginfo.txt
+dotnet/*.appx
+dotnet/*.appxbundle
+dotnet/*.appxupload
+
+# Visual Studio cache files
+dotnet/*.suo
+dotnet/*.user
+dotnet/*.userosscache
+dotnet/*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+dotnet/*.userprefs
+
+# Mono auto generated files
+dotnet/mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ===================================
+# WORKSHOP-SPECIFIC FILES
+# ===================================
+
+# Workshop temporary files
+**/temp/
+**/tmp/
+**/*.tmp
+
+# Workshop artifacts
+**/workshop-output/
+**/exercise-solutions/
+**/student-work/
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.workshop
+
+# Workshop database files
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Workshop logs
+**/logs/
+**/*.log
+**/log-*.txt
+
+# Workshop uploads/downloads
+**/uploads/
+**/downloads/
+**/workshop-files/
+
+# ===================================
+# SECURITY AND SECRETS
+# ===================================
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.envrc
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Certificates
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# ===================================
+# GENERAL DEVELOPMENT
+# ===================================
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.tmp
+
+# Archive files (if they contain sensitive data)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Local configuration overrides
+local.json
+local.config
+*.local.*
+
+# Package managers lockfiles (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+shrinkwrap.yaml
+
+# ===================================
+# MISCELLANEOUS
+# ===================================
+
+# macOS Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
